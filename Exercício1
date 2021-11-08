@@ -1,0 +1,18 @@
+from datetime import date
+current_date = date.today()
+
+print('Informe a data do seu nascimento.')
+print('')
+a = int(input('Informe o ano:'))
+m = int(input('Informe o mês:'))
+d = int(input('Informe o dia:'))
+
+data_atual = current_date.year
+ano = data_atual-a
+mes = ano*12
+dia = ano*365
+print('')
+print('Você tem:')
+print(ano,'Anos')
+print(mes,'Meses')
+print(dia,'Dias')
