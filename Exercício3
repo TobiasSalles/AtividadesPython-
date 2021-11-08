@@ -1,0 +1,11 @@
+primeiro = int(input('Digite o primeiro numero: '))
+segundo  = int(input('Digite o segundo numero : '))
+terceiro = int(input('Digite o terceiro numero: '))
+
+menor = primeiro
+if (menor > segundo):
+    menor = segundo
+if (menor > terceiro):
+    menor = terceiro
+print('')
+print('O menor número é: ',menor)
