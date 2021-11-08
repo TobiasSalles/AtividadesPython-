@@ -1,0 +1,4 @@
+frase = input('Digite uma frase: ')
+print(' Frase digitada: {}'.format(frase))
+invertida = ' '.join(palavra[::-1] for palavra in frase.split())
+print('A frase digitada invertida fica: {}'.format(invertida))
