@@ -1,0 +1,12 @@
+import math
+a = int(input('Informe um valor para a: '))
+b = int(input('Informe um valor para b: '))
+c = int(input('Informe um valor para c: '))
+p = (a+b+c)/2
+
+if (a>b+c) or (b>a+c) or (c>a+b):
+    print('Os valores', a, b, c,'não formam um triângulo')
+
+else:
+    area = (math.sqrt(p*(p-a)*(p-b)*(p-c)))
+    print ('É um triângulo com área igual a', area)
